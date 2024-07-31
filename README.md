@@ -46,7 +46,7 @@ To create your development environment [follow these instructions](https://larav
 Setting up your development environment on your local machine:
 ```bash
 $ git clone https://github.com/sungalaxy0605/Blogging-Laravel
-$ cd laravel-blog
+$ cd Blogging-Laravel
 $ cp .env.example .env
 $ php artisan key:generate
 $ php artisan horizon:install
@@ -154,11 +154,3 @@ To list all the available routes for API :
 ```bash
 $ php artisan route:list --path=api
 ```
-
-## Contributing
-
-Do not hesitate to contribute to the project by adapting or adding features ! Bug reports or pull requests are welcome.
-
-## License
-
-This project is released under the [MIT](http://opensource.org/licenses/MIT) license.
